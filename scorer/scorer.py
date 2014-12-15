@@ -2,12 +2,6 @@ from random import *
 class Scorer(object):
     def add_team(self, team1):
         self.team1 = team1
-        #self.team2 = team2
-        '''team1 = raw_input("Enter team name: ");
-        print "Team 1 is: ", team1
-        
-        team2 = raw_input("Enter team name: ");
-        print "Team 2 is: ", team2'''
         
     def score(self, x, y):
         random  = Random()
